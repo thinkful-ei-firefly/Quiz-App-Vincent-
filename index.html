@@ -8,12 +8,32 @@
   <meta name= 'description' content=< 'Do you know the capitals of the world' >
   <link href= 'style.css' rel= 'stylesheet' type= 'text/css' />
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="Questions.js"></script>
 </head>
 <body>
   <header role='banner'>
-    <div class=
+    <div class= 'world'>
+      <a href= 'index.html'>
+        <img class= 'logo'
+        src='https://www.google.com/search?q=world&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiz9eqHkrfjAhUUH80KHSfgCYoQ_AUIESgC&biw=1119&bih=618#imgrc=YgY4l5SdNTT6OM:'
+      </a>
+    </div>
+    <div>
+
+    </div class= 'result'>
+      <ul>
+        <li> Question: <span class='questionNumber'>0</li>span>/10</li>
+        <li>Score: <span class= 'score'>0</span></li>
+      </ul>
   </header>
+  <main role='main'>
+    <div class= 'start'>
+      <h1> How well do you know the capitals of the world?</h1>
+      <button type='button' class='startButton'> Ready to test your knowledge? </button>
+    </div>
+    <div class='questionAnswerForm'></div>
+  </main>
 </body>
 </html>
