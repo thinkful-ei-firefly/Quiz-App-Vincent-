@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Slabo 27px', serif;
     background-color: #ffffff;
-    background: url('https://i.imgur.com/vzPnp7m.jpg') fixed;
+    background: url('https://img.freepik.com/free-vector/sun-shining-blue-sky-with-white-clouds-realistic-background_1284-10467.jpg?size=626&ext=jpg') fixed;
     color: #363946;
 }
 /*header styling*/
-
 header {
     width: 100%;
     padding: 30px 0;
