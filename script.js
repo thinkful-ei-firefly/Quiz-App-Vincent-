@@ -85,6 +85,16 @@ const STORE= [
     alt: 'Mexico flag'
   },
   {
-    question: ''
-  }
+    question: 'What is the capital of the United Kingdom?',
+    answers: [
+      'Liverpool',
+      'Bristol',
+      'London',
+      'Glasgow'
+    ],
+    correctAnswer: 'London',
+    icon: 'https://www.google.com/search?q=uk+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwimxZSpkbfjAhXaLc0KHcmcCocQ_AUIECgB&biw=1119&bih=618#imgrc=loDVUIgaAvTIPM:',
+    alt: 'United Kingdom Flag'
+  },
+  
 ]
