@@ -27,16 +27,16 @@ header::after {
 header::after {
     clear: both;
 }
-.col-4,
-.col-8 {
+.world,
+.result {
     float: left;
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
 }
-.col-4 {
+.world {
     width: 33.33%
 }
-.col-8 {
+.result {
     width: 66.67%
 }
 .logo {
