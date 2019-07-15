@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>What is the Capital App</title>
-  <meta name= 'description' content=< 'Do you know the capitals of the world' >
-  <link href= 'style.css' rel= 'stylesheet' type= 'text/css' />
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Capital Quiz App</title>
+  <meta name="description" content="Do you know your capitals">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="Questions.js"></script>
   <script src="index.js"></script>
 </head>
-<body>
-  <header role='banner'>
-    <div class= 'world'>
-      <a href= 'index.html'>
-        <img class= 'logo'
-        src='https://png.pngtree.com/png-clipart/20190125/ourmid/pngtree-simple-plane-travel-around-the-world-png-image_515331.jpg'
-      </a>
-    </div>
-    <div>
 
-    </div class= 'result'>
+<body>
+  <header role="banner">
+    <div class="col-8">
       <ul>
-        <li> Question: <span class='questionNumber'>0</li>span>/10</li>
-        <li>Score: <span class= 'score'>0</span></li>
+        <li>Question: <span class="questionNumber">0</span>/10</li>
+        <li>Score: <span class="score">0</span></li>
       </ul>
-  </header>
-  <main role='main'>
-    <div class= 'start'>
-      <h1> How well do you know the capitals of the world?</h1>
-      <button type='button' class='startButton'> Ready to test your knowledge? </button>
     </div>
-    <div class='questionAnswerForm'></div>
+  </header>
+  <main role="main">
+    <div class="quizStart">
+      <h1>Can you get the capitals right?</h1>
+      <button type="button" class="startButton">Start</button>
+    </div>
+    <div class="questionAnswerForm"></div>
   </main>
 </body>
+
 </html>
