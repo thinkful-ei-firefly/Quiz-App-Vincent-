@@ -45,6 +45,7 @@ const STORE= [
       'Seoul',
       'Gimpo',
     ],
+    correctAnswer: 'Seoul',
     icon: 'https://www.google.com/search?q=south+korea+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjxsvbJkbfjAhVJVc0KHSlfD_oQ_AUIECgB&biw=1119&bih=618#imgrc=0qMmZI1yU3orzM:',
     alt: 'South Korea flag'
   },
@@ -59,4 +60,29 @@ const STORE= [
     icon: 'https://www.google.com/search?q=canada+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj0q-_CkbfjAhUXHc0KHYzMBr0Q_AUIECgB&biw=1119&bih=618#imgrc=8BbVkRiS5q_auM:',
     alt: 'Canda flag'
   },
+  {
+    question: 'What is the capital of Australia?',
+    answers: [
+      'Canberra',
+      'Sydney',
+      'Melbourne',
+      'Perth',
+    ],
+    correctAnswer: 'Canberra',
+    icon: 'https://www.google.com/search?q=australia+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi3hJS6kbfjAhVFHc0KHZKLC-4Q_AUIECgB&biw=1119&bih=618#imgrc=gRsR_oXneAtsCM:',
+    alt: 'Australia Flag'
+  },
+  {
+    question: 'What is the capital of Mexico?',
+    answers: [
+      'Guadalajara',
+      'Puebla',
+      'Cancún',
+      'Mexico City'
+    ],
+    correctAnswer: 'Mexico City',
+    icon: 'https://www.google.com/search?q=mexico+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwio56uxkbfjAhXQZc0KHV08AGYQ_AUIECgB&biw=1119&bih=618#imgrc=s-kixUN_bpy9zM:',
+    alt: 'Mexico flag'
+  },
+  {}
 ]
