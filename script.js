@@ -47,5 +47,16 @@ const STORE= [
     ],
     icon: 'https://www.google.com/search?q=south+korea+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjxsvbJkbfjAhVJVc0KHSlfD_oQ_AUIECgB&biw=1119&bih=618#imgrc=0qMmZI1yU3orzM:',
     alt: 'South Korea flag'
-  }
+  },
+  {
+    question: 'What is the capital of Canada?',
+    answers: [
+      'Ottawa',
+      'Toronto',
+      'Montreal',
+      'Ontario'
+    ],
+    icon: 'https://www.google.com/search?q=canada+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj0q-_CkbfjAhUXHc0KHYzMBr0Q_AUIECgB&biw=1119&bih=618#imgrc=8BbVkRiS5q_auM:',
+    alt: 'Canda flag'
+  },
 ]
