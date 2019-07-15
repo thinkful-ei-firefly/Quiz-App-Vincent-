@@ -84,5 +84,7 @@ const STORE= [
     icon: 'https://www.google.com/search?q=mexico+flag&source=lnms&tbm=isch&sa=X&ved=0ahUKEwio56uxkbfjAhXQZc0KHV08AGYQ_AUIECgB&biw=1119&bih=618#imgrc=s-kixUN_bpy9zM:',
     alt: 'Mexico flag'
   },
-  {}
+  {
+    question: ''
+  }
 ]
