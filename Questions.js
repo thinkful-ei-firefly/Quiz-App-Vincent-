@@ -49,6 +49,7 @@ const STORE= [
       'Montreal',
       'Ontario'
     ],
+    correctAnswer: 'Ottawa',
   },
   {
     question: 'What is the capital of Australia?',

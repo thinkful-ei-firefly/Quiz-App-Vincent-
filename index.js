@@ -94,14 +94,14 @@ function ifAnswerIsWrong() {
 //user feedback for correct answer
 function userAnswerFeedbackCorrect() {
   let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
-  $('.questionAnswerForm').html(`<div class="correctFeedback"><div class="icon"><img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/></div><p><b>You got it right!</b></p><button type=button class="nextButton">Next</button></div>`);
+  $('.questionAnswerForm').html(`<div class="correctFeedback"><p><b>You got it right!</b></p><button type=button class="nextButton">Next</button></div>`);
 }
 
 //user feedback for wrong answer
 function userAnswerFeedbackWrong() {
   let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
   // let iconImage = `${STORE[questionNumber].icon}`;
-  $('.questionAnswerForm').html(`<div class="correctFeedback"><div class="icon"><img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/></div><p><b>You got it wrong</b><br>the correct answer is <span>"${correctAnswer}"</span></p><button type=button class="nextButton">Next</button></div>`);
+  $('.questionAnswerForm').html(`<div class="correctFeedback"><p><b>You got it wrong</b><br>the correct answer is <span>"${correctAnswer}"</span></p><button type=button class="nextButton">Next</button></div>`);
 }
 
 //update score text
